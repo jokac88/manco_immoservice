@@ -40,7 +40,7 @@ if (isset($_POST['btn_submit'])) {
         $_SESSION['error'] = 'Something went wrong!';
         header('Location: /#contact'); // this is different on localhost
     }else{
-        $_SESSION['success'] = 'You successfuly sent message';
+        $_SESSION['success'] = 'You successfuly sent a message!';
         header('Location: /#contact'); // this is different on localhost
     }
 } else {
