@@ -655,7 +655,8 @@ svg {
 
 		.icon {
 			img {
-				width: 40%;
+				width: 190px;
+				height: 190px;
 				border-radius: 50%;
 				border: 5px solid $mountainmeadow;
 				transition: $transition;
@@ -670,6 +671,7 @@ svg {
 			letter-spacing: 3px;
 			margin-bottom: 20px;
 			color: $white;
+			text-shadow: 2px 2px $black;
 		}
 
 		p {
