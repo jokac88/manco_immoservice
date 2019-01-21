@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<?php session_start(); ?>
 <head>
 	<!-- Meta tag start-->
 	<meta charset="utf-8" />
@@ -28,7 +28,6 @@
 	<link rel="stylesheet" href="css/style.min.css" />
 	<!-- CSS and Bootstrap 4 links end -->
 </head>
-
 <body data-spy="scroll" data-target="#nav">
 	<!-- Loader start -->
 	<div id="loader"></div>
@@ -468,6 +467,12 @@
 			<!-- Reference end -->
 			<!-- Contact start -->
 			<div id="contact" class="item-div">
+				<?php
+					if (isset($_SESSION['success']) || isset($_SESSION['error'])) {
+						require_once 'flash.php';
+						session_destroy();
+					}
+				?>
 				<div class="container">
 					<div class="heading">
 						<h2 class="wow slideInLeft">
@@ -509,44 +514,44 @@
 							<h3 class="mb-3">
 								Kontakt Formular
 							</h3>
-							<form>
+							<form method="POST" action="phpform.php">
 								<div class="form-group">
 									<label>
 										Firmenname
 									</label>
-									<input type="text" class="col-8 form-control" />
+									<input name="comapny_name" type="text" class="col-8 form-control" required />
 								</div>
 								<div class="form-group">
 									<label>
 										Vor- und Nachname*
 									</label>
-									<input type="text" class="col-8 form-control" />
+									<input name="full_name" type="text" class="col-8 form-control" required />
 								</div>
 								<div class="form-group">
 									<label>
 										Emailadresse*
 									</label>
-									<input type="email" class="col-8 form-control" />
+									<input name="email" type="email" class="col-8 form-control" required />
 								</div>
 								<div class="form-group">
 									<label>
 										Telefonnummer
 									</label>
-									<input type="tel" class="col-8 form-control" />
+									<input name="phone" type="tel" class="col-8 form-control" required />
 								</div>
 								<div class="form-group">
 									<label>
 										Betreff
 									</label>
-									<input type="tel" class="col-8 form-control" />
+									<input name="subject" type="text" class="col-8 form-control" required />
 								</div>
 								<div class="form-group">
 									<label>
 										Nachricht
 									</label>
-									<textarea class="form-control" rows="5"></textarea>
+									<textarea name="message" class="form-control" rows="5"></textarea>
 								</div>
-								<button type="submit" class="btn btn-primary">
+								<button name="btn_submit" type="submit" class="btn btn-primary">
 									Einreichen
 								</button>
 							</form>
