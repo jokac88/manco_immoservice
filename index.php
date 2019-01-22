@@ -9,9 +9,9 @@
 	<meta name="keywords" content=" " />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<title>Manco Immoservice</title>
-	<meta name="theme-color" content="#ff0000" />
-	<meta name="msapplication-navbutton-color" content="#ff0000" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="#ff0000" />
+	<meta name="theme-color" content="#ffffff" />
+	<meta name="msapplication-navbutton-color" content="#ffffff" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="#ffffff" />
 	<!-- Meta tag end-->
 	<!-- Favicon start -->
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -30,7 +30,7 @@
 </head>
 <body data-spy="scroll" data-target="#nav">
 	<!-- Loader start -->
-	<!-- <div id="loader"></div> -->
+	<div id="loader"></div>
 	<!-- Loader end -->
 	<!-- App start -->
 	<div id="app">
@@ -45,12 +45,17 @@
 					</span>
 				</div>
 				<!-- Sidenav end -->
+				<h4>
+					Manco Immoservice
+				</h4>
 			</div>
 			<!-- Top menu end -->
 			<!-- Sidenav start -->
 			<div id="sidenav">
 				<div class="navbar-logo">
-					<img src="img/logo.png" alt="img/logo.png" />
+					<a href="#home" class="nav-link">
+						<img src="img/logo.png" class="logo" alt="img/logo.png" />
+					</a>
 				</div>
 				<nav id="nav">
 					<ul>
@@ -58,10 +63,10 @@
 							<a class="nav-link" href="#home">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#services">Dienstleistungen</a>
+							<a class="nav-link" href="#dienstleistungen">Dienstleistungen</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#about-us">Über<span>uns</span></a>
+							<a class="nav-link" href="#uber-uns">Über<span>uns</span></a>
 						</li>
 <!--
 						<li class="nav-item">
@@ -69,7 +74,7 @@
 						</li>
 -->
 						<li class="nav-item">
-							<a class="nav-link" href="#contact">Kontakt</a>
+							<a class="nav-link" href="#kontakt">Kontakt</a>
 						</li>
 					</ul>
 				</nav>
@@ -103,10 +108,10 @@
 									<a class="nav-link" href="#home">Home</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#services">Dienstleistungen</a>
+									<a class="nav-link" href="#dienstleistungen">Dienstleistungen</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#about-us">Über uns</a>
+									<a class="nav-link" href="#uber-uns">Über uns</a>
 								</li>
 <!--
 								<li class="nav-item">
@@ -114,7 +119,7 @@
 								</li>
 -->
 								<li class="nav-item">
-									<a class="nav-link" href="#contact">Kontakt</a>
+									<a class="nav-link" href="#kontakt">Kontakt</a>
 								</li>
 							</ul>
 						</nav>
@@ -156,7 +161,7 @@
 		<!-- Content start -->
 		<div id="content">
 			<!-- Services start -->
-			<div id="services" class="item-div">
+			<div id="dienstleistungen" class="item-div">
 				<div class="container-fluid">
 					<div class="heading">
 						<h2 class="wow slideInLeft">
@@ -264,7 +269,7 @@
 								</div>
 							</div>
 							<h4>
-								24h Pekettdienst
+								24h Pikettdienst
 							</h4>
 							<p class="text">
 								Selbstverständlich sind wir für Notfälle auch ausserhalb der Bürozeiten sowie an Wochenenden erreichbar.
@@ -308,7 +313,7 @@
 								</div>
 							</div>
 							<h4>
-								Raumungen
+								Räumungen
 							</h4>
 							<p class="text">
 								Wir machen Räumungen wie Wohnungen, Keller/Estrich oder Baustellenräumungen
@@ -332,7 +337,7 @@
 			</div>
 			<!-- Services end -->
 			<!-- About us start -->
-			<div id="about-us" class="item-div">
+			<div id="uber-uns" class="item-div">
 				<div class="heading">
 					<h2 class="wow slideInLeft">
 						Über uns
@@ -445,7 +450,7 @@
 -->
 			<!-- Reference end -->
 			<!-- Contact start -->
-			<div id="contact" class="item-div">
+			<div id="kontakt" class="item-div">
 				<?php
 					if (isset($_SESSION['success']) || isset($_SESSION['error'])) {
 						require_once 'flash.php';
@@ -479,11 +484,11 @@
 						</div>
 						<div class="col-md-4">
 							<p class="key">
-								Email:
+								Mailkontakt:
 							</p>
 							<p class="value">
-								<a href="mailto:manco-immoservice@gmx.ch" target="_blank" title="Kontaktiere mich">
-									manco-immoservice@gmx.ch
+								<a href="mailto:info@mancoimmoservice.ch" target="_blank" title="Kontaktiere mich">
+									info@mancoimmoservice.ch
 								</a>
 							</p>
 						</div>
