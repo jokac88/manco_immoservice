@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css" />
 	<link rel="stylesheet" href="css/owl.theme.default.min.css" />
 	<link rel="stylesheet" href="css/animated.min.css" />
-	<link rel="stylesheet" href="css/style.min.css" />
+	<link rel="stylesheet" href="<?= 'css/style.min.css?ver=' . rand(1,999) ?>"/>
 	<!-- CSS and Bootstrap 4 links end -->
 </head>
 <body data-spy="scroll" data-target="#nav">
@@ -571,7 +571,7 @@
 
 	</script>
 	<script type="text/javascript" src="js/all.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="<?= 'js/main.js?ver=' . rand(1,999) ?>"></script>
 	<!-- JavaScript links end -->
 </body>
 
