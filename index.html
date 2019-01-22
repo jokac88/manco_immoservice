@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php session_start(); ?>
+
 <head>
 	<!-- Meta tag start-->
 	<meta charset="utf-8" />
@@ -28,9 +28,10 @@
 	<link rel="stylesheet" href="css/style.min.css" />
 	<!-- CSS and Bootstrap 4 links end -->
 </head>
+
 <body data-spy="scroll" data-target="#nav">
 	<!-- Loader start -->
-	<!-- <div id="loader"></div> -->
+	<div id="loader"></div>
 	<!-- Loader end -->
 	<!-- App start -->
 	<div id="app">
@@ -52,24 +53,47 @@
 				<div class="navbar-logo">
 					<img src="img/logo.png" alt="img/logo.png" />
 				</div>
-				<nav id="nav">
+				<nav>
 					<ul>
 						<li class="nav-item">
-							<a class="nav-link" href="#home">Home</a>
+							<a class="nav-link" href="#home">
+								Home
+							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#services">Dienstleistungen</a>
+							<a class="nav-link" href="#about-us">
+								Über<span>Uns</span>
+							</a>
+							<button class="btn btn-collapse" type="button" data-toggle="collapse" data-target="#dropdown-about-us" aria-expanded="false" aria-controls="dropdown-about-us">
+								<i class="fas fa-arrow-right"></i>
+							</button>
+						</li>
+						<li id="dropdown-about-us" class="nav-item collapse">
+							<a href="#mission-vision" class="nav-link">Mission<span>Vision</span></a>
+							<a href="#roadmap" class="nav-link">Roadmap</a>
+							<a href="#team" class="nav-link">Team</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#about-us">Über<span>uns</span></a>
+							<a class="nav-link" href="#services">
+								Dienstleistungen
+							</a>
+							<button class="btn btn-collapse" type="button" data-toggle="collapse" data-target="#dropdown-services" aria-expanded="false" aria-controls="dropdown-services">
+								<i class="fas fa-arrow-right"></i>
+							</button>
 						</li>
-<!--
-						<li class="nav-item">
-							<a class="nav-link" href="#reference">Reference</a>
+						<li id="dropdown-services" class="nav-item collapse">
+							<a href="#solutions" class="nav-link">Swissmining<span>Solutions</span></a>
+							<a href="#token" class="nav-link">Swiss<span>Turbo</span><span>Token</span></a>
 						</li>
--->
 						<li class="nav-item">
-							<a class="nav-link" href="#contact">Kontakt</a>
+							<a class="nav-link" href="#partners">
+								Partners
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">
+								Kontakt
+							</a>
 						</li>
 					</ul>
 				</nav>
@@ -84,19 +108,17 @@
 		<div id="navbar" class="fixed-top d-none d-md-block">
 			<div class="container-fluid">
 				<div class="row align-items-md-center">
-					<div class="col-md-4 col-lg-6">
+					<div class="col-md-2 col-lg-4">
 						<div id="logo">
 							<a href="#home" class="nav-link">
 								<img src="img/logo.png" class="logo" alt="img/logo.png" />
 								<h2>
-									Manco
-									<br />
-									Immoservice
+									Manco Immoservice
 								</h2>
 							</a>
 						</div>
 					</div>
-					<div class="col-md-8 col-lg-6">
+					<div class="col-md-10 col-lg-8">
 						<nav id="nav" class="navbar float-md-right">
 							<ul class="nav nav-pills">
 								<li class="nav-item">
@@ -164,7 +186,7 @@
 						</h2>
 					</div>
 					<div class="row">
-						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
+						<div class="col-md-4 pt-5 wow slideInUp">
 							<div class="icon-div">
 								<div class="icon">
 									<i class="fas fa-home"></i>
@@ -191,7 +213,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
+						<div class="col-md-4 pt-5 wow slideInUp">
 							<div class="icon-div">
 								<div class="icon">
 									<i class="fas fa-home"></i>
@@ -221,7 +243,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
+						<div class="col-md-4 pt-5 wow slideInUp">
 							<div class="icon-div">
 								<div class="icon">
 									<i class="fas fa-home"></i>
@@ -257,7 +279,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
+						<div class="col-md-4 pt-5 wow slideInUp">
 							<div class="icon-div">
 								<div class="icon">
 									<i class="fas fa-home"></i>
@@ -270,7 +292,7 @@
 								Selbstverständlich sind wir für Notfälle auch ausserhalb der Bürozeiten sowie an Wochenenden erreichbar.
 							</p>
 						</div>
-						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
+						<div class="col-md-4 pt-5 wow slideInUp">
 							<div class="icon-div">
 								<div class="icon">
 									<i class="fas fa-home"></i>
@@ -288,7 +310,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
+						<div class="col-md-4 pt-5 wow slideInUp">
 							<div class="icon-div">
 								<div class="icon">
 									<i class="fas fa-home"></i>
@@ -301,7 +323,7 @@
 								Wir begleiten Sie bei der Wohnungsabnahme und führen anschliessend kleine Reparaturen sowie Reinigungen durch
 							</p>
 						</div>
-						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
+						<div class="col-md-4 pt-5 wow slideInUp">
 							<div class="icon-div">
 								<div class="icon">
 									<i class="fas fa-home"></i>
@@ -314,7 +336,7 @@
 								Wir machen Räumungen wie Wohnungen, Keller/Estrich oder Baustellenräumungen
 							</p>
 						</div>
-						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
+						<div class="col-md-4 pt-5 wow slideInUp">
 							<div class="icon-div">
 								<div class="icon">
 									<i class="fas fa-home"></i>
@@ -446,12 +468,6 @@
 			<!-- Reference end -->
 			<!-- Contact start -->
 			<div id="contact" class="item-div">
-				<?php
-					if (isset($_SESSION['success']) || isset($_SESSION['error'])) {
-						require_once 'flash.php';
-						session_destroy();
-					}
-				?>
 				<div class="container">
 					<div class="heading">
 						<h2 class="wow slideInLeft">
@@ -489,49 +505,48 @@
 						</div>
 					</div>
 					<div class="row pt-3 wow slideInUp">
-						<div class="col-md-6 pb-5 pb-md-0">
+						<div class="col-md-6">
 							<h3 class="mb-3">
 								Kontakt Formular
 							</h3>
-							<form method="POST" action="phpform.php">
+							<form>
 								<div class="form-group">
 									<label>
-										Firmenname <span>*</span>
+										Firmenname
 									</label>
-									<input name="comapny_name" type="text" class="col-md-8 form-control" required />
+									<input type="text" class="col-8 form-control" />
 								</div>
 								<div class="form-group">
 									<label>
-										Vor- und Nachname <span>*</span>
+										Vor- und Nachname*
 									</label>
-									<input name="full_name" type="text" class="col-md-8 form-control" required />
+									<input type="text" class="col-8 form-control" />
 								</div>
 								<div class="form-group">
 									<label>
-										Emailadresse <span>*</span>
+										Emailadresse*
 									</label>
-									<input name="email" type="email" class="col-md-8 form-control" required />
+									<input type="email" class="col-8 form-control" />
 								</div>
 								<div class="form-group">
 									<label>
-										Telefonnummer <span>*</span>
+										Telefonnummer*
 									</label>
-									<input name="phone" type="tel" class="col-md-8 form-control" required />
+									<input type="tel" class="col-8 form-control" />
 								</div>
 								<div class="form-group">
 									<label>
-										Betreff <span>*</span>
+										Betreff*
 									</label>
-									<input name="subject" type="text" class="col-md-8 form-control" required />
+									<input type="tel" class="col-8 form-control" />
 								</div>
 								<div class="form-group">
 									<label>
-										Nachricht <span>*</span>
+										Nachricht*
 									</label>
-									<textarea name="message" class="form-control" rows="5"></textarea>
-									<span>*</span> erforderlich
+									<textarea class="form-control" rows="5"></textarea>
 								</div>
-								<button name="btn_submit" type="submit" class="btn btn-primary">
+								<button type="submit" class="btn btn-primary">
 									Einreichen
 								</button>
 							</form>
