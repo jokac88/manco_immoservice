@@ -38,10 +38,10 @@ if (isset($_POST['btn_submit'])) {
     session_start();
     if(!$mail->send()){
         $_SESSION['error'] = 'Something went wrong!';
-        header('Location: /#contact'); // this is different on localhost
+        header('Location: /#kontakt'); // this is different on localhost
     }else{
         $_SESSION['success'] = 'You successfuly sent a message!';
-        header('Location: /#contact'); // this is different on localhost
+        header('Location: /#kontakt'); // this is different on localhost
     }
 } else {
     die('Send valid data through form!');
