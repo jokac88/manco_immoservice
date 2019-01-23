@@ -355,9 +355,14 @@
 								</h3>
 							</div>
 							<div class="col-md-8">
-								<p>
-									In Bearbeitung . . .
-								</p>
+								<div class="box">
+										<p>
+											Wir haben langjährige Erfahrung im Bereich Wartung jeglicher Liegenschaften. Unser Arbeitsbereich beinhaltet allgemeine Reinigungsarbeiten , Haustechnik, Gartenunterhalt sowie die regelmässige Kontrolle der Liegenschaft und deren Umgebung.
+										</p>
+										<p>
+											Flexibilität und Zuverlässigkeit gehören zu unseren Stärken!
+										</p>
+								</div>
 							</div>
 						</div>
 					</div>
