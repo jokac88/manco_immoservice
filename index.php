@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php session_start(); ?>
+
 <head>
 	<!-- Meta tag start-->
 	<meta charset="utf-8" />
@@ -25,12 +26,13 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css" />
 	<link rel="stylesheet" href="css/owl.theme.default.min.css" />
 	<link rel="stylesheet" href="css/animated.min.css" />
-	<link rel="stylesheet" href="<?= 'css/style.min.css?ver=' . rand(1,999) ?>"/>
+	<link rel="stylesheet" href="<?= 'css/style.min.css?ver=' . rand(1,999) ?>" />
 	<!-- CSS and Bootstrap 4 links end -->
 </head>
+
 <body data-spy="scroll" data-target="#nav">
 	<!-- Loader start -->
-	<div id="loader"></div>
+	<!-- <div id="loader"></div> -->
 	<!-- Loader end -->
 	<!-- App start -->
 	<div id="app">
@@ -39,7 +41,8 @@
 			<!-- Top menu start -->
 			<div id="top-menu">
 				<!-- Sidenav start -->
-				<div id="btn-sidenav" class="hamburger hamburger--spin d-md-none" data-toggle="collapse" role="button" aria-expanded="false">
+				<div id="btn-sidenav" class="hamburger hamburger--spin d-md-none" data-toggle="collapse" role="button"
+				 aria-expanded="false">
 					<span class="hamburger-box">
 						<span class="hamburger-inner"></span>
 					</span>
@@ -68,7 +71,7 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#uber-uns">Über<span>uns</span></a>
 						</li>
-<!--
+						<!--
 						<li class="nav-item">
 							<a class="nav-link" href="#reference">Reference</a>
 						</li>
@@ -113,7 +116,7 @@
 								<li class="nav-item">
 									<a class="nav-link" href="#uber-uns">Über uns</a>
 								</li>
-<!--
+								<!--
 								<li class="nav-item">
 									<a class="nav-link" href="#reference">Reference</a>
 								</li>
@@ -176,20 +179,20 @@
 								</div>
 							</div>
 							<h4>
-								Treppenhausreinigungen
+								Treppenhausreinigung
 							</h4>
 							<p class="text">
 								wir passen die Reinigung Ihren individuellen Bedürfnissen an und sorgen für ein perfektes Erscheinungsbild.
 							</p>
 							<ul>
 								<li>
-									Treppenhaus und Liftanlage
+									Reinigung Treppenhaus und Liftanlage
 								</li>
 								<li>
-									Reinigung von Zugangswege und Eingangsbereich
+									Reinigung von allen Nebenräumen wie Keller, Estrich und Waschküche
 								</li>
 								<li>
-									von allen Nebenräumen wie Keller, Estrich und Waschküche
+									Reinigung von allen Nebenräumen wie Keller, Estrich und Waschküche
 								</li>
 								<li>
 									Fensterreinigung
@@ -233,32 +236,32 @@
 								</div>
 							</div>
 							<h4>
-								Unterhaltsreparaturen
+								Unterhaltsarbeiten
 							</h4>
 							<p class="text">
-								Sicherheit steht an erster Stelle. Wir prüfen regelmässige Ihre technischen Anlagen.
+								Sicherheit steht an erster Stelle. Wir prüfen regelmässig Ihre technischen Anlagen.
 							</p>
 							<ul>
 								<li>
-									Bedienung und Ueberwachung der Haustechnik
+									Bedienung und Überwachung der Haustechnik
 								</li>
 								<li>
-									Störungsbehebung an Lüftungen, Heizungsanlage sowie technische Anlagen
+									Störungsbehebung an Lüftungen, Heizungsanlagen sowie technische Anlagen
 								</li>
 								<li>
-									Ueberwachung und Meldung von Zählerständen
+									Überwachung und Meldung von Zählerständen
 								</li>
 								<li>
 									Kontrolle der Radiotorenventile
 								</li>
 								<li>
-									Ausführung von kleinere Reparaturarbeiten
+									Ausführung von kleineren Reparaturarbeiten
 								</li>
 								<li>
 									Kontrolle der Beleuchtungen
 								</li>
 								<li>
-									Koordination von Handwerker bei grösseren Reparaturen
+									Koordination von Handwerkern bei grösseren Reparaturen
 								</li>
 							</ul>
 						</div>
@@ -272,7 +275,7 @@
 								24h Pikettdienst
 							</h4>
 							<p class="text">
-								Selbstverständlich sind wir für Notfälle auch ausserhalb der Bürozeiten sowie an Wochenenden erreichbar.
+								Selbstverständlich sind wir für Notfälle auch ausserhalb der Bürozeiten sowie Wochenenden für Sie erreichbar.
 							</p>
 						</div>
 						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
@@ -300,7 +303,7 @@
 								</div>
 							</div>
 							<h4>
-								Wohnungsreinigungen
+								Wohnungsreinigung
 							</h4>
 							<p class="text">
 								Wir begleiten Sie bei der Wohnungsabnahme und führen anschliessend kleine Reparaturen sowie Reinigungen durch
@@ -316,7 +319,7 @@
 								Räumungen
 							</h4>
 							<p class="text">
-								Wir machen Räumungen wie Wohnungen, Keller/Estrich oder Baustellenräumungen
+								Wir machen Räumungen wie Wohnungen, Keller/Estrich oder Baustellen.
 							</p>
 						</div>
 						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
@@ -329,7 +332,8 @@
 								Verwaltung
 							</h4>
 							<p class="text">
-								Haben Sie eine Immobilie zu vermieten aber keine Zeit für Besichtigungen? Gerne übernehmen wir für Sie diese Termine.
+								Haben Sie eine Immobilie zu vermieten aber keine Zeit für Besichtigungen? Gerne übernehmen wir für Sie diese
+								Termine.
 							</p>
 						</div>
 					</div>
@@ -356,12 +360,14 @@
 							</div>
 							<div class="col-md-8">
 								<div class="box">
-										<p>
-											Wir haben langjährige Erfahrung im Bereich Wartung jeglicher Liegenschaften. Unser Arbeitsbereich beinhaltet allgemeine Reinigungsarbeiten , Haustechnik, Gartenunterhalt sowie die regelmässige Kontrolle der Liegenschaft und deren Umgebung.
-										</p>
-										<p>
-											Flexibilität und Zuverlässigkeit gehören zu unseren Stärken!
-										</p>
+									<p>
+										Wir haben langjährige Erfahrung im Bereich Wartung jeglicher Liegenschaften. Unser Arbeitsbereich beinhaltet
+										allgemeine Reinigungsarbeiten , Haustechnik, Gartenunterhalt sowie die regelmässige Kontrolle der
+										Liegenschaft und deren Umgebung.
+									</p>
+									<p>
+										Flexibilität und Zuverlässigkeit gehören zu unseren Stärken!
+									</p>
 								</div>
 							</div>
 						</div>
@@ -370,7 +376,7 @@
 			</div>
 			<!-- About us end -->
 			<!-- Reference start -->
-<!--
+			<!--
 			<div id="reference" class="item-div">
 				<div class="container">
 					<div class="heading">
@@ -382,8 +388,8 @@
 				<div class="reference-background">
 					<div class="container">
 -->
-						<!-- Owl carousel start -->
-<!--
+			<!-- Owl carousel start -->
+			<!--
 						<div class="owl-carousel owl-theme">
 							<div class="item">
 								<div class="row">
@@ -447,8 +453,8 @@
 							</div>
 						</div>
 -->
-						<!-- Owl carousel end -->
-<!--
+			<!-- Owl carousel end -->
+			<!--
 					</div>
 				</div>
 			</div>
@@ -550,7 +556,8 @@
 							<h3 class="mb-4">
 								Karte
 							</h3>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.509449803798!2d7.874151415188083!3d47.53841267918017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47904bb1f1e066d5%3A0xcedc0cc2cd62e2af!2sObere+Rebgasse+14%2C+4314+Zeiningen%2C+Switzerland!5e0!3m2!1sen!2srs!4v1546620980419" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.509449803798!2d7.874151415188083!3d47.53841267918017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47904bb1f1e066d5%3A0xcedc0cc2cd62e2af!2sObere+Rebgasse+14%2C+4314+Zeiningen%2C+Switzerland!5e0!3m2!1sen!2srs!4v1546620980419"
+							 width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
@@ -578,7 +585,6 @@
 	<script type="text/javascript" src="js/lg-zoom.min.js"></script>
 	<script type="text/javascript">
 		lightGallery(document.getElementById('lightgallery'));
-
 	</script>
 	<script type="text/javascript" src="js/all.min.js"></script>
 	<script type="text/javascript" src="<?= 'js/main.js?ver=' . rand(1,999) ?>"></script>
