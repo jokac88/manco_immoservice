@@ -189,7 +189,7 @@
 									Reinigung Treppenhaus und Liftanlage
 								</li>
 								<li>
-									Reinigung von allen Nebenräumen wie Keller, Estrich und Waschküche
+								Reinigung von Zugangswege und Eingangsbereich
 								</li>
 								<li>
 									Reinigung von allen Nebenräumen wie Keller, Estrich und Waschküche
