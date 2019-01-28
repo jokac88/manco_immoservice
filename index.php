@@ -189,7 +189,7 @@
 									Reinigung Treppenhaus und Liftanlage
 								</li>
 								<li>
-								Reinigung von Zugangswege und Eingangsbereich
+									Reinigung von Zugangswegen und Eingangsbereich
 								</li>
 								<li>
 									Reinigung von allen Nebenräumen wie Keller, Estrich und Waschküche
@@ -216,7 +216,7 @@
 									Rasenmähen
 								</li>
 								<li>
-									Schneiden von Hecken, Sträucher
+									Schneiden von Hecken und Sträucher
 								</li>
 								<li>
 									Unkraut jäten
@@ -239,29 +239,29 @@
 								Unterhaltsarbeiten
 							</h4>
 							<p class="text">
-								Sicherheit steht an erster Stelle. Wir prüfen regelmässig Ihre technischen Anlagen.
+								Sicherheit steht an erster Stelle. Wir prüfen regelmässige Ihre technischen Anlagen.
 							</p>
 							<ul>
 								<li>
-									Bedienung und Überwachung der Haustechnik
+									Bedienung und Ueberwachung der Haustechnik
 								</li>
 								<li>
-									Störungsbehebung an Lüftungen, Heizungsanlagen sowie technische Anlagen
+									Störungsbehebung an Lüftungen, Heizungsanlage sowie technische Anlagen
 								</li>
 								<li>
-									Überwachung und Meldung von Zählerständen
+									Ueberwachung und Meldung von Zählerständen
 								</li>
 								<li>
 									Kontrolle der Radiotorenventile
 								</li>
 								<li>
-									Ausführung von kleineren Reparaturarbeiten
+									Ausführung von kleinere Reparaturarbeiten
 								</li>
 								<li>
 									Kontrolle der Beleuchtungen
 								</li>
 								<li>
-									Koordination von Handwerkern bei grösseren Reparaturen
+									Koordination von Handwerker bei grösseren Reparaturen
 								</li>
 							</ul>
 						</div>
@@ -275,7 +275,7 @@
 								24h Pikettdienst
 							</h4>
 							<p class="text">
-								Selbstverständlich sind wir für Notfälle auch ausserhalb der Bürozeiten sowie Wochenenden für Sie erreichbar.
+								Selbstverständlich sind wir für Notfälle auch ausserhalb der Bürozeiten sowie an Wochenenden erreichbar.
 							</p>
 						</div>
 						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
@@ -319,7 +319,7 @@
 								Räumungen
 							</h4>
 							<p class="text">
-								Wir machen Räumungen wie Wohnungen, Keller/Estrich oder Baustellen.
+								Wir machen Räumungen von Wohnungen, Keller/Estrich oder Baustellenräumungen
 							</p>
 						</div>
 						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
@@ -333,7 +333,7 @@
 							</h4>
 							<p class="text">
 								Haben Sie eine Immobilie zu vermieten aber keine Zeit für Besichtigungen? Gerne übernehmen wir für Sie diese
-								Termine.
+								Termine
 							</p>
 						</div>
 					</div>
@@ -362,8 +362,8 @@
 								<div class="box">
 									<p>
 										Wir haben langjährige Erfahrung im Bereich Wartung jeglicher Liegenschaften. Unser Arbeitsbereich beinhaltet
-										allgemeine Reinigungsarbeiten , Haustechnik, Gartenunterhalt sowie die regelmässige Kontrolle der
-										Liegenschaft und deren Umgebung.
+										allgemeine Reinigungsarbeiten, Haustechnik, Gartenunterhalt sowie die regelmässige Kontrolle der Liegenschaft
+										und deren Umgebung.
 									</p>
 									<p>
 										Flexibilität und Zuverlässigkeit gehören zu unseren Stärken!
@@ -481,7 +481,7 @@
 							</p>
 							<p class="value">
 								Manco Immoservice,<br />
-								obere Rebgasse 14b,<br />
+								Obere Rebgasse 14b,<br />
 								4314 Zeiningen
 							</p>
 						</div>
@@ -512,9 +512,9 @@
 							<form method="POST" action="phpform.php">
 								<div class="form-group">
 									<label>
-										Firmenname <span>*</span>
+										Firmenname
 									</label>
-									<input name="comapny_name" type="text" class="col-md-8 form-control" required />
+									<input name="comapny_name" type="text" class="col-md-8 form-control" />
 								</div>
 								<div class="form-group">
 									<label>
