@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 if (isset($_POST['btn_submit'])) {
-    $comapny_name = $_POST['comapny_name'];
+    $comapny_name = $_POST['comapny_name'] != '' ? $_POST['comapny_name'] : '/';
     $full_name = $_POST['full_name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
