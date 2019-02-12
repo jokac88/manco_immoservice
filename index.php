@@ -275,7 +275,8 @@
 								24h Pikettdienst
 							</h4>
 							<p class="text">
-								Selbstverständlich sind wir für Notfälle auch ausserhalb der Bürozeiten sowie an Wochenenden erreichbar.
+								Selbstverständlich sind wir für Notfälle auch ausserhalb der Bürozeiten sowie an Wochenenden für Sie
+								erreichbar.
 							</p>
 						</div>
 						<div class="col-md-6 col-lg-4 pt-5 wow slideInUp">
