@@ -480,8 +480,8 @@
 								Adresse:
 							</p>
 							<p class="value">
-								Manco Immoservice,<br />
-								Obere Rebgasse 14b,<br />
+								Manco Immoservice<br />
+								Obere Rebgasse 14b<br />
 								4314 Zeiningen
 							</p>
 						</div>
